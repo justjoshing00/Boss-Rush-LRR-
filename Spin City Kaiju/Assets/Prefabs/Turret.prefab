@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4012079434751257835}
   - component: {fileID: 8512426517414929276}
   m_Layer: 0
-  m_Name: Building
+  m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,3 +97,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 586c0146919b148449c5e9d97a708bdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectile: {fileID: 8559683524085689718, guid: 1afced5828828d448adf6fddebf52716, type: 3}

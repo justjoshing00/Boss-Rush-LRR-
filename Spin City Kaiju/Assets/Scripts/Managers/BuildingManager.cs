@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BuildingManager : MonoBehaviour
 {
-    List<GameObject> Buildings;
-    BuildingSpawner buildingSpawner;
-    [SerializeField] GameObject building;
+    List<GameObject> Turrets;
+    TurretSpawner TurretSpawner;
+    [SerializeField] GameObject Turret;
 
     public static BuildingManager buildingManagerInstance { get; private set; }
     private void Awake()
@@ -23,14 +23,14 @@ public class BuildingManager : MonoBehaviour
 
     public void Start()
     {
-        Buildings = new();
-        buildingSpawner = new();
+        Turrets = new();
+        TurretSpawner = new();
     }
 
 
     public void CreateBuilding(Vector3 pos)
     {
-        buildingSpawner.SpawnBuilding(building, pos);//TODO: fix this
+        TurretSpawner.SpawnTurret(Turret, pos);//TODO: fix this
     }
 
    
