@@ -10,6 +10,6 @@ public class EventActions : MonoBehaviour
     }
     void LoseCondition()
     {
-        //????
+        //boss gets to the exit
     }
 }

@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class BossSpawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void SpawnBoss(GameObject Boss, Vector3 pos)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        GameObject.Instantiate(Boss, pos, Boss.transform.rotation);
     }
 }

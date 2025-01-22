@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class TrapSpawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void SpawnTrap(GameObject Trap, Vector3 pos)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        GameObject.Instantiate(Trap, pos, Trap.transform.rotation);
     }
 }

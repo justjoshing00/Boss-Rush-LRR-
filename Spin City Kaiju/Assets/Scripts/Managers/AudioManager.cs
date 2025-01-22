@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
+    public List<AudioSource> BGMs;
+    public List<AudioSource> SFXs;
+
     public static AudioManager audioManagerInstance { get; private set; }
     private void Awake()
     {
@@ -15,6 +18,12 @@ public class AudioManager : MonoBehaviour
         {
             audioManagerInstance = this;
         }
+    }
+
+    private void Start()
+    {
+        BGMs = new();
+        SFXs = new();
     }
 
     public void PlaySFX()

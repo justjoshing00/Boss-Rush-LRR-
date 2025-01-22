@@ -7,18 +7,15 @@ public class GameLoop : MonoBehaviour
     // Start is called before the first frame update
 
     InputSystem inputSystem;
-    
+    [SerializeField] int startingMoney = 1000;
+
 
     /*
-    PREP PHASE
-    click building you want
-    click where you want it
+    click where you want the building
     building is placed - money
-    FIGHT PHASE
-    boss summons enemies
-    boss makes attacks(?)
+    boss makes attacks
     win condition - kill the boss
-    loss condition -????
+    loss condition - boss moves to end point of level
     */
 
     void Start()
