@@ -393,14 +393,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BGMs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1004747346}
+  - {fileID: 1004747345}
+  - {fileID: 1004747344}
+  - {fileID: 1004747343}
   SFXs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1004747349}
+  - {fileID: 1004747348}
+  - {fileID: 1004747347}
 --- !u!82 &1004747343
 AudioSource:
   m_ObjectHideFlags: 0

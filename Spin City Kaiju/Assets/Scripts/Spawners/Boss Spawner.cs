@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossSpawner : MonoBehaviour
+public class BossSpawner
 {
     public void SpawnBoss(GameObject Boss, Vector3 pos)
     {
